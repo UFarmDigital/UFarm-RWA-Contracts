@@ -1,0 +1,15 @@
+{
+  "DeployTokenSuite": {
+    "tokenFactoryProxy": "0xYourTokenFactoryProxyHere",
+    "tokenName": "UFarm Asset",
+    "tokenSymbol": "UFARM",
+    "tokenDecimals": 18,
+    "tokenVersion": "1",
+    "tokenOwner": "0xYourTokenOwnerHere",
+    "tokenSalt": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "reuseIdentityRegistryStorage": "0x0000000000000000000000000000000000000000",
+    "requiredTopics": [],
+    "trustedIssuers": [],
+    "issuerTopics": []
+  }
+}

@@ -1,0 +1,15 @@
+node_modules
+dist
+artifacts
+cache
+cache_forge
+coverage
+out
+typechain
+.env*
+.DS_Store
+ignition/deployments/
+ignition/parameters/*
+!ignition/parameters/*.sample.json
+graphify-out/
+mounts/

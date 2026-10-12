@@ -1,0 +1,10 @@
+.git
+node_modules
+dist
+artifacts
+cache
+coverage
+typechain
+.env
+.DS_Store
+ignition/deployments/

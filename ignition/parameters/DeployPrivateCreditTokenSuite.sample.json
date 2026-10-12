@@ -1,0 +1,30 @@
+{
+  "DeployPrivateCreditTokenSuite": {
+    "tokenFactoryProxy": "0xYourTokenFactoryProxyHere",
+    "tokenName": "UFarm Private Credit",
+    "tokenSymbol": "UFPC",
+    "tokenDecimals": 18,
+    "tokenVersion": "1",
+    "tokenOwner": "0xYourTokenOwnerHere",
+    "tokenSalt": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "stablecoin": "0xYourStablecoinAddressHere",
+    "fundingAddress": "0xYourFundingAddressHere",
+    "denominationFeed": "0x0000000000000000000000000000000000000000",
+    "denominationMaxAge": 0,
+    "stablecoinFeed": "0x0000000000000000000000000000000000000000",
+    "stablecoinMaxAge": 0,
+    "sequencerFeed": "0x0000000000000000000000000000000000000000",
+    "sequencerGracePeriod": 0,
+    "minTicket": "100000000000000000000n",
+    "duration": "31536000n",
+    "minPeriod": "2592000n",
+    "lockup": "604800n",
+    "apyBps": 1200,
+    "distributionTerms": 0,
+    "yieldMode": 0,
+    "reuseIdentityRegistryStorage": "0x0000000000000000000000000000000000000000",
+    "requiredTopics": [],
+    "trustedIssuers": [],
+    "issuerTopics": []
+  }
+}

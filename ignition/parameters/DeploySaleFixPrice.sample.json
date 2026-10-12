@@ -1,0 +1,7 @@
+{
+  "DeploySaleFixPrice": {
+    "owner": "0xOwner",
+    "token": "0xYourSaleTokenHere",
+    "stablecoins": ["0xYourUSDCAddressHere", "0xYourUSDTAddressHere"]
+  }
+}

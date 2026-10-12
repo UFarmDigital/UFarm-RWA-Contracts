@@ -1,0 +1,42 @@
+{
+  "name": "ufarm-rwa-contracts",
+  "version": "1.0.0",
+  "description": "Permissioned real-world asset smart contracts",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf artifacts cache",
+    "compile": "hardhat compile",
+    "start": "hardhat node",
+    "deploy": "hardhat ignition deploy ignition/modules/DeployPlatform.ts",
+    "deploy:token-suite": "hardhat ignition deploy ignition/modules/DeployTokenSuite.ts",
+    "deploy:private-credit-suite": "hardhat ignition deploy ignition/modules/DeployPrivateCreditTokenSuite.ts",
+    "upgrade:platform-implementations": "hardhat run scripts/update-platform-implementations.ts",
+    "format": "prettier --write .",
+    "lint:ts": "eslint .",
+    "lint:sol": "solhint \"contracts/**/*.sol\"",
+    "lint": "npm run lint:ts && npm run lint:sol",
+    "security:slither": "slither . --compile-force-framework foundry --config-file slither.config.json",
+    "test": "hardhat test",
+    "verify": "hardhat run scripts/verify-impls.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "3.1.8",
+    "@nomicfoundation/hardhat-ignition-ethers": "3.1.6",
+    "@nomicfoundation/hardhat-toolbox-viem": "5.0.1",
+    "@nomicfoundation/hardhat-verify": "3.0.16",
+    "@openzeppelin/contracts": "5.6.1",
+    "@openzeppelin/contracts-upgradeable": "5.6.1",
+    "@typescript-eslint/eslint-plugin": "8.67.0",
+    "@typescript-eslint/parser": "8.67.0",
+    "eslint": "9.39.2",
+    "hardhat": "3.8.0",
+    "prettier": "3.7.4",
+    "prettier-plugin-solidity": "2.2.1",
+    "solc": "0.8.35",
+    "solhint": "6.0.2",
+    "typescript": "6.0.3",
+    "viem": "2.44.1"
+  }
+}

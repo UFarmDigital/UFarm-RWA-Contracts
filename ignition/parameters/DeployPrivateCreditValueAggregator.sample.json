@@ -1,0 +1,11 @@
+{
+  "DeployPrivateCreditValueAggregator": {
+    "owner": "0xYourOwnerAddressHere",
+    "valueContracts": ["0xYourPrivateCreditTokenHere"],
+    "stablecoins": ["0xYourUSDCAddressHere"],
+    "usdFeeds": ["0xYourUSDCUSDFeedHere"],
+    "maxAges": [86400],
+    "sequencerFeed": "0x0000000000000000000000000000000000000000",
+    "sequencerGracePeriod": 0
+  }
+}

@@ -1,0 +1,9 @@
+services:
+  deploy-node:
+    image: registry.gitlab.com/ufarm-digital/rwa-platform/ufarm-rwa-contracts:${DEPLOYMENTS_VERSION}
+    env_file:
+      - .env
+    volumes:
+      - ./mounts/keystore.json:/root/.config/hardhat-nodejs/keystore.json:ro
+      - ./mounts/deployments:/usr/src/app/ignition/deployments
+    platform: linux/amd64
